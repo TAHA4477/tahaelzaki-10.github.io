@@ -3,44 +3,42 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace each [YOUR ...] placeholder with your actual information
-- [ ] Add or remove entries in each section as needed
-- [ ] Remove sections that are not applicable (e.g., Theses, Conference Presentations)
-- [ ] Add DOI or URL links where available
--->
 
-# Publications
+# Publications & Projects
 
-## Journal Articles
+## Peer-Reviewed Publications
 
-1. [YOUR NAME], [CO-AUTHOR NAME], and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
+<div class="timeline" markdown>
 
-2. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
+<div class="timeline-entry" markdown>
 
-3. [YOUR NAME] ([YEAR]). "[Your paper title here]." *[Journal Name]*, [Volume] [Issue], [Page range]. [DOI link or URL]
+### IdeamapSudan: Geo-Spatial Modelling of Urban Poverty
+*Urban Remote Sensing Event (JURSE), 2023*
 
----
+Collaborative research applying geospatial methods to model urban poverty and deprivation in Khartoum, Sudan. The study combined remote sensing classification, socioeconomic indicators, and displacement mapping to support urban planning and socioeconomic reconstruction.
 
-## Conference Papers & Presentations
+- **Published in:** IEEE Xplore & University of Twente Research Portal
+- **Links:** [IEEE Xplore](https://ieeexplore.ieee.org/document/10144211) · [University of Twente](https://research.utwente.nl/en/publications/ideamapsudan-geo-spatial-modelling-of-urban-poverty)
 
-1. [YOUR NAME] and [CO-AUTHOR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
+</div>
 
-2. [YOUR NAME] ([YEAR]). "[Your presentation title]." *[Conference Name]*, [City, Country].
+</div>
 
 ---
 
-## Theses
+## Research Projects
 
-- [YOUR NAME] ([YEAR]). *[Your thesis title]*. [Degree type] thesis. [University Name].
+<div class="timeline" markdown>
 
----
+<div class="timeline-entry" markdown>
 
-## Reports & Technical Documents
+### IdeamapSudan — Integrated Deprivation Area Mapping System
+*University of Twente, Faculty of Geo-Information Science and Earth Observation, 2023*
 
-- [YOUR NAME] et al. ([YEAR]). *[Report title]*. [Organization Name]. [URL or DOI if available]
+Developed an integrated system for deprivation area mapping in support of displacement durable solutions and socioeconomic reconstruction in Khartoum. The project combined object-based image analysis, deep learning segmentation, and socioeconomic indicators.
 
----
+- **Project website:** [idea-maps.net](https://www.idea-maps.net/)
 
-*For citation counts and a full list, see [Google Scholar](https://scholar.google.com) or [ResearchGate](https://www.researchgate.net).*
+</div>
+
+</div>
