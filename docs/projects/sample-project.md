@@ -1,27 +1,15 @@
-<!--
-CHECKLIST FOR THIS PAGE (copy this file for each new project):
-- [ ] Replace [YOUR PROJECT TITLE] with your project title
-- [ ] Replace the hero image with your own (add to docs/assets/images/)
-- [ ] Update the Overview section
-- [ ] Update the Methods & Tools section
-- [ ] Update the Key Findings section
-- [ ] Update the Links section
-- [ ] Add a card for this project on docs/projects/index.md
-- [ ] Add a nav entry in mkdocs.yml
--->
+# IdeamapSudan — Urban Deprivation Mapping
 
-# [YOUR PROJECT TITLE]
-
-![Project overview image](../assets/images/placeholder-project.png)
+![Project overview image](../assets/images/project1-cover.png)
 
 ## Overview
 
-[One or two sentences describing what you did, what data you used, and why it matters.]
+A geospatial modelling project that combined remote sensing, socioeconomic indicators, and field data to identify and classify deprivation areas across Khartoum, Sudan. The findings support urban planning, displacement durable solutions, and socioeconomic reconstruction efforts in conflict-affected communities.
 
-**Study Area:** [Region or extent]  
-**Duration:** [Start month/year – End month/year]  
-**Role:** [Solo project / Team lead / Contributor]  
-**Status:** [Completed / In progress]
+**Study Area:** Khartoum, Sudan  
+**Duration:** March 2021 – March 2023  
+**Role:** Contributor  
+**Status:** Completed
 
 ---
 
@@ -29,34 +17,39 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 
 **Data Sources**
 
-- [Dataset name and source]
-- [Dataset name and source]
+- Sentinel-2 multispectral imagery (ESA Copernicus)
+- OpenStreetMap vector data
+- Census and socioeconomic indicator datasets
+- Field survey and GPS data collected on-ground in Khartoum
 
 **Processing Steps**
 
-1. [Step one]
-2. [Step two]
-3. [Step three]
-4. [Step four]
+1. Pre-processed Sentinel-2 imagery and computed spectral indices for land cover differentiation
+2. Performed object-based image analysis (OBIA) to segment and classify urban settlement types
+3. Integrated socioeconomic and census data with spatial layers in a composite deprivation index
+4. Validated results against field-collected GPS data and ground truth observations
+5. Produced deprivation area maps and visualisations for reporting and publication
 
 **Tools Used**
 
 | Tool | Purpose |
 |------|---------|
-| [Tool 1] | [What you used it for] |
-| [Tool 2] | [What you used it for] |
-| [Tool 3] | [What you used it for] |
+| QGIS | Spatial data management, vector processing, and cartographic output |
+| Google Earth Engine | Cloud-based Sentinel-2 imagery processing and spectral index computation |
+| Python | Data analysis, index calculation, and workflow automation |
 
 ---
+
 ## Key Findings
 
-- [Finding one — include a number or metric if possible]
-- [Finding two]
-- [Finding three]
+- Achieved improved accuracy in deprivation area classification by combining remote sensing with socioeconomic data layers
+- Identified and mapped socioeconomic vulnerability hotspots across Khartoum's urban and peri-urban zones
+- Research published as a peer-reviewed paper at the Urban Remote Sensing Event (JURSE 2023)
 
 ---
 
 ## Links
 
-[View Code on GitHub](https://github.com/[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME]){ .md-button }
-[View Data Source](https://example.com){ .md-button }
+[View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/10144211){ .md-button }
+[View on University of Twente](https://research.utwente.nl/en/publications/ideamapsudan-geo-spatial-modelling-of-urban-poverty){ .md-button }
+[Project Website](https://www.idea-maps.net/){ .md-button }
