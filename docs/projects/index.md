@@ -6,6 +6,8 @@
 
     ---
 
+    ![Project Cover](../assets/images/project1-cover.png)
+
     Geospatial modelling of urban poverty and deprivation areas in Khartoum, combining remote sensing, socioeconomic data, and field surveys. Published at JURSE 2023.
 
     **Tools:** QGIS · Google Earth Engine · Python
